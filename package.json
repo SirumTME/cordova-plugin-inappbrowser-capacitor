@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-inappbrowser",
+  "name": "@sirum/cordova-plugin-inappbrowser-capacitor",
   "version": "5.0.0",
-  "description": "Cordova InAppBrowser Plugin",
+  "description": "Cordova InAppBrowser Plugin for capacitor",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-inappbrowser",
+    "id": "cordova-plugin-inappbrowser-capacitor",
     "platforms": [
       "android",
       "browser",
@@ -13,8 +13,8 @@
       "windows"
     ]
   },
-  "repository": "github:apache/cordova-plugin-inappbrowser",
-  "bugs": "https://github.com/apache/cordova-plugin-inappbrowser/issues",
+  "repository": "github:SirumTME/cordova-plugin-inappbrowser-capacitor",
+  "bugs": "https://github.com/SirumTME/cordova-plugin-inappbrowser-capacitor/issues",
   "keywords": [
     "cordova",
     "in",
@@ -26,7 +26,8 @@
     "cordova-browser",
     "cordova-ios",
     "cordova-osx",
-    "cordova-windows"
+    "cordova-windows",
+    "capacitor"
   ],
   "scripts": {
     "test": "npm run lint",

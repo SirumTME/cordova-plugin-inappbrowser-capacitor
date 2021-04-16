@@ -18,13 +18,7 @@
  */
 
 #import "CDVWKInAppBrowser.h"
-
-#if __has_include(<Cordova/CDVWebViewProcessPoolFactory.h>) // Cordova-iOS >=6
-  #import <Cordova/CDVWebViewProcessPoolFactory.h>
-#elif __has_include("CDVWKProcessPoolFactory.h") // Cordova-iOS <6 with WKWebView plugin
-  #import "CDVWKProcessPoolFactory.h"
-#endif
-
+#import "CDVWebViewProcessPoolFactory.h"
 #import <Cordova/CDVPluginResult.h>
 
 #define    kInAppBrowserTargetSelf @"_self"
